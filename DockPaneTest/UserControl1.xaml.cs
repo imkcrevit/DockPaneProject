@@ -46,14 +46,7 @@ namespace DockPaneTest
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
             _event.Raise();
-            //try
-            //{
-            //    ThisApplication.thisApp.AddIdlingEvent();
-            //}
-            //catch(Exception ex)
-            //{
-            //    MessageBox.Show(ex.ToString());
-            //}
+
         }
         internal static UserControl1 mainPage = null;
         public class ExternalHander : IExternalEventHandler

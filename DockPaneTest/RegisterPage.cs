@@ -17,9 +17,7 @@ namespace DockPaneTest
             ThisApplication.thisApp.GetAPIUntil().Initialize(app);
             ThisApplication.thisApp.CreatWindow();
             ThisApplication.thisApp.RegisterPage(app);
-            
-
-
+ 
             return Result.Succeeded;
         }
 

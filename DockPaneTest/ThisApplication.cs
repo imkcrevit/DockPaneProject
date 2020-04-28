@@ -57,16 +57,7 @@ namespace DockPaneTest
         {
             DockablePane pane = uiApp.GetDockablePane(new DockablePaneId(APIUntil.m_GUID));
             pane.Show();
-            
-            //if (GetMainWindow().DialogResult)
-            //{
-            //    uiApp.Idling += new EventHandler<Autodesk.Revit.UI.Events.IdlingEventArgs>(ThisApplication.thisApp.IdlingHandler);
-
-            //}
-            //else
-            //{
-            //    string msg = ThisApplication.thisApp.GetMainWindow().DialogResult.ToString();
-            //}
+           
         }
         internal static ThisApplication thisApp = null;
         private APIUntil apiUntil = null;
@@ -102,7 +93,7 @@ namespace DockPaneTest
             }
             else
             {
-                System.Windows.Forms.MessageBox.Show("Must Get should Idling!");
+                System.Windows.Forms.MessageBox.Show("Must should Idling!");
             }
         }
     }

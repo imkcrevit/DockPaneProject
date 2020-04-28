@@ -15,14 +15,7 @@ namespace DockPaneTest
         {
             Autodesk.Revit.UI.UIApplication app = commandData.Application;
 
-
             ThisApplication.thisApp.SetWindowAvibilable(app);
-
-           
-
-            
-            
-
 
             return Result.Succeeded;
         }
