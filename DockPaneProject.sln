@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPaneProject", "DockPaneProject\DockPaneProject.csproj", "{96495453-E530-46AB-A60C-EB4767960A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPaneTest", "DockPaneTest\DockPaneTest.csproj", "{4BBBD7BE-CB84-4CBD-982D-BE9B3A751354}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96495453-E530-46AB-A60C-EB4767960A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96495453-E530-46AB-A60C-EB4767960A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96495453-E530-46AB-A60C-EB4767960A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96495453-E530-46AB-A60C-EB4767960A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBBD7BE-CB84-4CBD-982D-BE9B3A751354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBBD7BE-CB84-4CBD-982D-BE9B3A751354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBBD7BE-CB84-4CBD-982D-BE9B3A751354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBBD7BE-CB84-4CBD-982D-BE9B3A751354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A8B5A05-1362-4C71-BE8B-770E88D2F606}
+	EndGlobalSection
+EndGlobal
